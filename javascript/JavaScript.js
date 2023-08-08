@@ -1,5 +1,4 @@
-// ====== DOM CSS =======
-// 1. DOM STYLE
-var boxElement = document.querySelector('.box');
-
-console.log(boxElement)
+let box = document.querySelector('.box');
+box.classList.add('red');
+console.log(box.classList.contains('green'));
+box.classList.remove('red');
