@@ -1,4 +1,6 @@
-let box = document.querySelector('.box');
-box.classList.add('red');
-console.log(box.classList.contains('green'));
-box.classList.remove('red');
+var h1 = document.querySelectorAll('h1');
+for (var i = 0; i < h1.length; i++) {
+    h1[i].onclick = function(e) {
+        console.log(e.target);
+    }
+}
