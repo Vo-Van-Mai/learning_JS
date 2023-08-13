@@ -1,5 +1,2 @@
-var inputElement =
- document.querySelector('input[type="text"]');
-inputElement.onkeyup= function(e) {
-    console.log(e.which);
-}
+console.log(JSON.stringify(['Java', 'php'])); //array
+console.log(JSON.stringify({name: 'Van Mai', age: 19})) //object
